@@ -1,1 +1,6 @@
-curl -v --data '{"method":"eth_getTransactionReceipt","params":["0xce704ecc1306b54f0876b514bad97ee657d8b9a025db923aa927c80a4a969958"],"id":1,"jsonrpc":"2.0"}' -H "Content-Type: application/json" -X POST localhost:7434
+#!/bin/bash
+
+hash=$1
+data='{"method":"eth_getTransactionReceipt","params":["'$hash'"],"id":1,"jsonrpc":"2.0"}'
+echo $data
+curl -v --data $data -H "Content-Type: application/json" -X POST localhost:7434
