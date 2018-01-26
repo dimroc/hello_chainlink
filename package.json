@@ -3,12 +3,14 @@
     "repl": "local-repl"
   },
   "dependencies": {
+    "ethereumjs-abi": "^0.6.5",
     "web3": "^1.0.0-beta.29"
   },
   "devDependencies": {
     "local-repl": "^3.1.0"
   },
   "repl": [
-    "web3"
+    "web3",
+    "ethereumjs-abi"
   ]
 }
