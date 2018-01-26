@@ -1,0 +1,2 @@
+curl -u chainlink:twochains -X POST -H 'Content-Type: application/json' \
+       http://localhost:8080/jobs/$1/runs
