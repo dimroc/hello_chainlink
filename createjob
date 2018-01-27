@@ -1,2 +1,0 @@
-curl -u chainlink:twochains -X POST -H 'Content-Type: application/json' \
-       -d @internal/fixtures/web/hello_world_job.json http://localhost:8080/v2/jobs
