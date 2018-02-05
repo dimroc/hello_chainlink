@@ -1,0 +1,13 @@
+{
+  "initiators": [{ "type": "web" }],
+  "tasks": [
+    { "type": "HttpGet", "endpoint": "https://www.bitstamp.net/api/ticker/" },
+    { "type": "JsonParse", "path": ["last"] },
+    { "type": "EthBytes32" },
+    {
+      "type": "EthTx",
+      "address": "0xacfbbebe1736e2bea98975220ac5a7fb37825bc9",
+      "functionId": "0x5508ff94"
+    }
+  ]
+}
