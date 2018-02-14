@@ -1,0 +1,16 @@
+{
+  "initiators": [{
+    "type": "chainlinklog",
+    "address": "0x60ec1fc3a72684447432d3daf2b3cbc6ab940f4c"
+  }],
+  "tasks": [
+    { "type": "HttpGet" },
+    { "type": "JsonParse" },
+    { "type": "EthBytes32" },
+    {
+      "type": "EthTx",
+      "address": "0x60ec1fc3a72684447432d3daf2b3cbc6ab940f4c",
+      "functionId": "0x944b8aa2"
+    }
+  ]
+}

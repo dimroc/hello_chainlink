@@ -1,0 +1,1 @@
+curl -v --data '{"method":"trace_call","params":[{"from":"0x001622be336710CA632dE00955928eb88832e51A","to":"0x3f684f6aadd3e64aa7c3b915c1c2b626efaf66c4","gas":"0xc35000","gasPrice": "0x9184e72a000","data":"0xd7f29c63"}, ["trace"]],"id":1,"jsonrpc":"2.0"}' -H "Content-Type: application/json" -X POST localhost:18545
