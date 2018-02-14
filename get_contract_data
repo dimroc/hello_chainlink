@@ -1,4 +1,4 @@
 #!/bin/bash
 
-curl -v --data '{"method":"eth_call","params":[{"from":"0xde554b6c292f5e5794a68dc560a537dd89d3b03e","to":"0xacfbbebe1736e2bea98975220ac5a7fb37825bc9","gas":"0xc350","data":"0x73d4a13a"}],"id":1,"jsonrpc":"2.0"}' -H "Content-Type: application/json" -X POST localhost:7434
-# curl -v --data '{"method":"eth_sendTransaction","params":[{"from":"0xde554b6c292f5e5794a68dc560a537dd89d3b03e","to":"0x88607793ff9d7a9676e3e5f7ddf66dbdbcb25a81","gas":"0xc350","data":"0x73d4a13a"}],"id":1,"jsonrpc":"2.0"}' -H "Content-Type: application/json" -X POST localhost:7434
+curl -v --data '{"method":"eth_call","params":[{"from":"0xde554b6c292f5e5794a68dc560a537dd89d3b03e","to":"0xacfbbebe1736e2bea98975220ac5a7fb37825bc9","gas":"0xc350","data":"0x73d4a13a"}],"id":1,"jsonrpc":"2.0"}' -H "Content-Type: application/json" -X POST localhost:18545
+# curl -v --data '{"method":"eth_sendTransaction","params":[{"from":"0xde554b6c292f5e5794a68dc560a537dd89d3b03e","to":"0x88607793ff9d7a9676e3e5f7ddf66dbdbcb25a81","gas":"0xc350","data":"0x73d4a13a"}],"id":1,"jsonrpc":"2.0"}' -H "Content-Type: application/json" -X POST localhost:18545

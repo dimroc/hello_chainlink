@@ -2,4 +2,4 @@
 
 hash=$1
 data='{"method":"eth_getTransactionByHash","params":["'$hash'"],"id":1,"jsonrpc":"2.0"}'
-curl --data $data -H "Content-Type: application/json" -X POST localhost:7434
+curl -v --data $data -H "Content-Type: application/json" -X POST localhost:18545
