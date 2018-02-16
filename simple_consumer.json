@@ -1,7 +1,7 @@
 {
   "initiators": [{
     "type": "ethlog",
-    "address": "0xe49ed2358ac701a9ad67f5c71cde2291040aebe6"
+    "address": "0x071407812708c269dc0e064e0d8533a470ffe3ed"
   }],
   "tasks": [
     { "type": "noop" }
