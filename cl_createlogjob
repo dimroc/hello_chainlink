@@ -1,2 +1,2 @@
 curl -u chainlink:twochains -X POST -H 'Content-Type: application/json' \
-       -d @./dynamic_consumer_httpget.json http://localhost:8080/v2/jobs
+       -d @./dynamic_consumer_httpget.json http://localhost:6688/v2/jobs
