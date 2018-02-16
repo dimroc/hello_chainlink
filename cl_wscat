@@ -1,1 +1,2 @@
-wscat --connect localhost:18546
+#!/bin/bash
+wscat --connect localhost:18546 $@
