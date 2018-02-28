@@ -1,0 +1,5 @@
+#!/bin/bash
+
+number=$1
+data='{"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":["'$number'", true],"id":1}'
+curl -d "$data" -H "Content-Type: application/json" localhost:18545

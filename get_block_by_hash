@@ -1,0 +1,6 @@
+#!/bin/bash
+
+hash=$1
+data='{"jsonrpc":"2.0","method":"eth_getBlockByHash","params":["'$hash'", true],"id":1}'
+curl --data "$data" -H "Content-Type: application/json" -X POST localhost:18545
+
