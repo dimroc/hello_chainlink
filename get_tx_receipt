@@ -3,4 +3,4 @@
 hash=$1
 data='{"method":"eth_getTransactionReceipt","params":["'$hash'"],"id":1,"jsonrpc":"2.0"}'
 echo $data
-curl -v --data $data -H "Content-Type: application/json" -X POST localhost:18545
+curl -v --data $data -H "Content-Type: application/json" -X POST localhost:18545 | json_reformat
